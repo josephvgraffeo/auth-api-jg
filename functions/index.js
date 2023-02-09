@@ -10,6 +10,4 @@ app.use(express.json());
 // login and signup routes
 app.post("/signup", signup)
 
-
-
 export const api = functions.https.onRequest(app);
